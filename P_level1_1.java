@@ -1,30 +1,26 @@
-/**
- * 문자열압축
- */
-public class P_level1_1 {
+class Solution {
 
-    public static void main(String[] args) {
-        P_level1_1 start = new P_level1_1();
-        // System.out.println(start.solution("aabbaccc", 1)); // 7
-        // System.out.println(start.solution("abcabcdede", 1)); // 8
-        // System.out.println(start.solution("abcabcabcabcdededededede", 1)); // 14
-        System.out.println(start.solution("xababcdcdababcdcd",1 )); // 17
 
+    public int solution(String s) {
+        return solution(s, 1);
     }
-
+    
     public static int solution(String s, int size) {
+        if(s.length() == 1) { return s.length();}
         if(size > s.length() / 2) { return s.length(); }
         String saveWord = s.substring(0, size);
         StringBuilder stb = new StringBuilder();
         String gc = "";
         int cnt = 1;
+        // 압축 사이즈가 string / size 보다 작아야한다.
         for(int i = 1; i < s.length() / size; i++) {
             String word = s.substring(i * size, i * size + size);
+            // 전과 같다면 cnt ++을 해준다.
             if(saveWord.equals(word)) {
                 cnt++;
                 saveWord = word;
                 gc = s.substring(i * size);
-            } else {
+            } else { // 새로운 문자 준비
                 if(cnt == 1) {
                     stb.append(saveWord);
                 } else {
@@ -36,6 +32,7 @@ public class P_level1_1 {
                 gc = s.substring(i * size);
             }
         }
+        // for 문 끝나고 나머지 처리
         if(cnt == 1) {
             stb.append(gc);
         } else {

@@ -1,5 +1,15 @@
 class Solution {
 
+    public static void main(String[] args) {
+        Solution sol1 = new Solution();
+        System.out.println(sol1.solution("aabbaccc"));
+        System.out.println(sol1.solution("ababcdcdababcdcd"));
+        System.out.println(sol1.solution("abcabcdede"));
+        System.out.println(sol1.solution("abcabcabcabcdededededede"));
+        System.out.println(sol1.solution("xababcdcdababcdcd"));
+        System.out.println(sol1.solution("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"));
+        System.out.println(sol1.solution("abcabcad"));
+    }
 
     public int solution(String s) {
         return solution(s, 1);
@@ -19,7 +29,7 @@ class Solution {
             if(saveWord.equals(word)) {
                 cnt++;
                 saveWord = word;
-                gc = s.substring(i * size);
+                gc = s.substring(i * size + size);
             } else { // 새로운 문자 준비
                 if(cnt == 1) {
                     stb.append(saveWord);
@@ -38,6 +48,7 @@ class Solution {
         } else {
             stb.append(cnt);
             stb.append(saveWord);
+            stb.append(gc);
         } 
         // System.out.println(stb.toString() + " GC - " + gc);
         return Math.min(stb.length(), solution(s, ++size));

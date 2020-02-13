@@ -1,4 +1,4 @@
-package BOJ.algorithm;
+
 
 /**
  * B_10171

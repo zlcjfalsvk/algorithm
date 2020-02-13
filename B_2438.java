@@ -1,4 +1,4 @@
-package BOJ.algorithm;
+
 import java.util.Scanner;
 
 class B_2438 {

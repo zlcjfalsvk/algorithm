@@ -1,7 +1,11 @@
-class Solution {
+
+/**
+ * P_level1_1 문자열 압축
+ */
+class P_level1_1 {
 
     public static void main(String[] args) {
-        Solution sol1 = new Solution();
+        P_level1_1 sol1 = new P_level1_1();
         System.out.println(sol1.solution("aabbaccc"));
         System.out.println(sol1.solution("ababcdcdababcdcd"));
         System.out.println(sol1.solution("abcabcdede"));

@@ -1,3 +1,4 @@
+package BOJ;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,17 +7,17 @@ import java.util.Arrays;
 
 public class B_1912 {
 	
-	public static void main(String[] args) throws NumberFormatException, IOException {
-		BufferedReader bre = new BufferedReader(new InputStreamReader(System.in));
-		int num = Integer.parseInt(bre.readLine());
+	public static void main(final String[] args) throws NumberFormatException, IOException {
+		final BufferedReader bre = new BufferedReader(new InputStreamReader(System.in));
+		final int num = Integer.parseInt(bre.readLine());
 		String[] array = new String[num];
-		int[] dp = new int[num+1];
-		String str = bre.readLine();
+		final int[] dp = new int[num + 1];
+		final String str = bre.readLine();
 		array = str.split(" ");
 		Arrays.fill(dp, -1001);
-		
+
 		int index = 0;
-		for (String i : array) {
+		for (final String i : array) {
 			dp[index + 1] = Integer.max(dp[index] + Integer.parseInt(i),Integer.parseInt(i));		
 			index++;
 		}

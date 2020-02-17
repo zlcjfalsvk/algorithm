@@ -1,8 +1,4 @@
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
+package PROGRAMMERS;
 /**
  * P_level1_2 완주하지 못한 선수
  */

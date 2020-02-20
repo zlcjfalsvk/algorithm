@@ -5,7 +5,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * K번째 수
+ * K?? ?
+ * https://programmers.co.kr/learn/courses/30/lessons/42748
  */
 public class P_level1_3 {
 

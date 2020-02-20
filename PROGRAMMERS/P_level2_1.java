@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * P_level2 탑
+ * https://programmers.co.kr/learn/courses/30/lessons/42588
  */
 public class P_level2_1 {
 

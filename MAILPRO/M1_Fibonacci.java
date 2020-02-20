@@ -10,19 +10,19 @@ package MAILPRO;
     Input: N = 12
     Output: 10 // 0, 1, 2, 3, 5, 8 중 짝수인 2 + 8 = 10.
  */
-public class Fibonacci {
+public class M1_Fibonacci {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(solution(35));
     }    
 
-    public static int solution(int num) {
+    public static int solution(final int num) {
         return solution(0, 1, 0, num);
     }
 
-    public static int solution(int n, int m, int sum, int num) {
+    public static int solution(final int n, final int m, int sum, final int num) {
         if((n+m) > num) return sum;
-        int fibo = n + m;
+        final int fibo = n + m;
         if(fibo % 2 == 0) sum+= fibo;
         return solution(m, fibo, sum , num);
     }

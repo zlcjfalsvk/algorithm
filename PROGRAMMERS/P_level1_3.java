@@ -32,4 +32,4 @@ public class P_level1_3 {
         Arrays.sort(arr);
         return arr[findI] ;
     }
-}
+} 

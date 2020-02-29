@@ -1,0 +1,38 @@
+package MAILPRO;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * 정수 배열과 타겟 숫자가 주어지면, 합이 타겟값이 되는 두 원소의 인덱스를 찾으시오.
+단, 시간복잡도 O(n) 여야 합니다.
+
+Given an array of integers and a target integer, find two indexes of the array element that sums to the target number.
+    예제)
+    Input: [2, 5, 6, 1, 10], 타겟 8
+    Output: [0, 2] // 배열[0] + 배열[2] = 8
+ */
+public class M4_TargetInteger {
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(solution(new int[]{2, 5, 6, 1, 10}, 8)));        
+        
+    }
+
+    public static int[] solution(int[] arr, int target) {
+        Map<Integer, Integer> hash = new HashMap<>();
+        int[] answer = new int[2];
+        int index = 0;
+        for (Integer integer : arr) {
+            hash.put(integer, index++);
+            if(hash.get(target - integer) != null) {
+                answer[0] = hash.get(integer);
+                answer[1] = hash.get(target - integer);
+            };
+        }
+        Arrays.sort(answer);
+        return answer;
+    }
+    
+}

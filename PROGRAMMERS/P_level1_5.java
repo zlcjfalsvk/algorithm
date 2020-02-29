@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 모의고사 https://programmers.co.kr/learn/courses/30/lessons/42840
  */
-public class P_lovel1_모의고사 {
+public class P_level1_5 {
 
     final static int[] SUPOJA1 = { 1, 2, 3, 4, 5 };
     final static int[] SUPOJA2 = { 2, 1, 2, 3, 2, 4, 2, 5 };

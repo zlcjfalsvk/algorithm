@@ -4,10 +4,10 @@ package PROGRAMMERS;
  * P_level1_1 문자열 압축
  * https://programmers.co.kr/learn/courses/30/lessons/60057
  */
-class P_level1_문자열압축 {
+class P_level1_1 {
 
     public static void main(String[] args) {
-        P_level1_문자열압축 sol1 = new P_level1_문자열압축();
+        P_level1_1 sol1 = new P_level1_1();
         System.out.println(sol1.solution("aabbaccc"));
         System.out.println(sol1.solution("ababcdcdababcdcd"));
         System.out.println(sol1.solution("abcabcdede"));

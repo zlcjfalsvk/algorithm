@@ -8,7 +8,7 @@ import java.util.List;
  * K번째수
  * https://programmers.co.kr/learn/courses/30/lessons/42748
  */
-public class P_level1_K번째수 {
+public class P_level1_4{
 
 
     public static void main(final String[] args) {

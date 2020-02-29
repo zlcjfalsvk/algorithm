@@ -4,7 +4,7 @@ package PROGRAMMERS;
  * 약수의 합
  * https://programmers.co.kr/learn/courses/30/lessons/12928
  */
-public class P_level1_약수의합 {
+public class P_level1_2 {
 
     class Solution {
         public int solution(int n) {

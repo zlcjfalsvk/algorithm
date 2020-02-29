@@ -7,10 +7,10 @@ import java.util.Map;
  * P_level1_2 완주하지 못한 선수
  * https://programmers.co.kr/learn/courses/30/lessons/42576
  */
-class P_level1_2 {
+class P_level1_완주하지못한선수 {
 
     public static void main(String[] args) {
-        P_level1_2 l = new P_level1_2();
+        P_level1_완주하지못한선수 l = new P_level1_완주하지못한선수();
         String[] a = { "kiki", "leo", "eden", "leo", "kiki" };
         String[] a2 = { "leo", "kiki", "eden", "kiki" };
         System.out.println(l.solution(a, a2));

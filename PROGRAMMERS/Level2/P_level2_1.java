@@ -1,4 +1,4 @@
-package PROGRAMMERS;
+package PROGRAMMERS.Level2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * P_level2 ?
- * https://programmers.co.kr/learn/courses/30/lessons/42588
+ * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/42588
  */
 public class P_level2_1 {
 

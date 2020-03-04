@@ -1,11 +1,11 @@
 
-package PROGRAMMERS;
+package PROGRAMMERS.Level1;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 같은 숫자는 싫어 https://programmers.co.kr/learn/courses/30/lessons/12906
+ * 같은 숫자는 싫어 https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12906
  */
 public class P_level1_10 {
 

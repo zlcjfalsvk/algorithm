@@ -1,11 +1,11 @@
-package PROGRAMMERS;
+package PROGRAMMERS.Level1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
 /**
- * 모의고사 https://programmers.co.kr/learn/courses/30/lessons/42840
+ * 모의고사 https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/42840
  */
 public class P_level1_5 {
 

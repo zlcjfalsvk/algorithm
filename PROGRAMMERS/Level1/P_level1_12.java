@@ -1,11 +1,12 @@
-package PROGRAMMERS;
+package PROGRAMMERS.Level1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 /**
- * P_level1_12 https://programmers.co.kr/learn/courses/30/lessons/12910
+ * 나누어 떨어지는 숫자 배열
+ * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12910
  */
 public class P_level1_12 {
 

@@ -1,4 +1,4 @@
-package PROGRAMMERS;
+package PROGRAMMERS.Level1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * K번째수
- * https://programmers.co.kr/learn/courses/30/lessons/42748
+ * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/42748
  */
 public class P_level1_4{
 

@@ -1,8 +1,8 @@
-package PROGRAMMERS;
+package PROGRAMMERS.Level1;
 
 /**
  * P_level1_1 문자열 압축
- * https://programmers.co.kr/learn/courses/30/lessons/60057
+ * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/60057
  */
 class P_level1_1 {
 

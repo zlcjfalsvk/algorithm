@@ -4,7 +4,7 @@ import PROGRAMMERS.Level1.P_level1_2.Solution;
 
 /**
  * 시저암호
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12926
+ * https://programmers.co.kr/learn/courses/30/lessons/12926
  */
 public class P_level1_13 {
 

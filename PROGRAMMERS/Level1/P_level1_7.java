@@ -2,7 +2,7 @@ package PROGRAMMERS.Level1;
 
 /**
  * 가운데 글자 가져오기
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12903
+ * https://programmers.co.kr/learn/courses/30/lessons/12903
  */
 public class P_level1_7 {
 

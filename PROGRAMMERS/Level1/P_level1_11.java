@@ -2,7 +2,7 @@ package PROGRAMMERS.Level1;
 
 /**
  * 수박수박수박수박
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12922
+ * https://programmers.co.kr/learn/courses/30/lessons/12922
  */
 public class P_level1_11 {
     

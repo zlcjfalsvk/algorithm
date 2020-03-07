@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 /**
  * P_level1_ì²´ìœ¡ë³µ
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/42862?language=java
+ * https://programmers.co.kr/learn/courses/30/lessons/42862?language=java
  */
 public class P_level1_6 {
 

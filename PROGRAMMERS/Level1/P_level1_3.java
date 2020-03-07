@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * P_level1_2 완주하지 못한 선수
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/42576
+ * https://programmers.co.kr/learn/courses/30/lessons/42576
  */
 class P_level1_3 {
 

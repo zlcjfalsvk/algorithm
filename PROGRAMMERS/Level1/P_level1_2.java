@@ -2,7 +2,7 @@ package PROGRAMMERS.Level1;
 
 /**
  * 약수의 합
- * https://PROGRAMMERS.Level1.co.kr/learn/courses/30/lessons/12928
+ * https://programmers.co.kr/learn/courses/30/lessons/12928
  */
 public class P_level1_2 {
 

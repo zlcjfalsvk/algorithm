@@ -11,7 +11,7 @@ Output: [5, 3, -1, 0, 0]
 Input: [3, 0, 3]
 Output: [3, 3, 0]
  */
-public class M8_NONZERO {
+public class M8_Nonzero {
 
 
     public static void main(String[] args) {

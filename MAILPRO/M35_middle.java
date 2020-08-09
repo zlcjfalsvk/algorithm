@@ -29,7 +29,7 @@ public class M35_middle {
         System.out.println(one.getItem());
     }
     
-    public static class Node{
+    private static class Node{
         private int item;
         private Node next;
 

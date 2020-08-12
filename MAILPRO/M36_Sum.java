@@ -12,7 +12,7 @@ Output: 2->4->6 // 642
 Input: 1->5->6, 0->0->4 // 651 + 400
 Output: 1->5->0->1 // 1051
  */
-public class M_36_Sum {
+public class M36_Sum {
 
     public static void main(String[] args) {
 
